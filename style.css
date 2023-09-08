@@ -1,0 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(255, 175, 27), rgb(255, 136, 24));
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.6);
+  color: rgb(237, 237, 237);
+  padding: 0 5vmax;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin-right: 10vmax;
+  padding: 2vmin 1vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.navbar h2:hover {
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+}
+
+input {
+  background-color: rgb(237, 237, 237);
+  margin: 1vmin 1vmax;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  transition: all 0.5s;
+}
+
+input:hover {
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+button[type='submit'] {
+  background-color: rgb(60, 205, 44);
+  margin: 1vmin 2vmax;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button[type='submit']:hover {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+  background-color: rgb(68, 232, 50);
+}
+
+.container {
+  width: 70%;
+  height: 75vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container h2 {
+  letter-spacing: 3px;
+  word-spacing: 15px;
+  text-transform: uppercase;
+  padding: 2vmin;
+}
+
+.timerBox {
+  display: flex;
+
+}
+.timerBox div {
+  padding: 1vmin 2vmax;
+}
+.timerBox p {
+  font-size: 4rem;
+  transition: all 0.5s;
+}
+.timerBox p:hover {
+  transform: scale(1.1);
+}
+
+.timerBox span {
+  font-size: large;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-bottom: 1vmin;
+}
+
+.footer>span {
+  color: rgb(215, 0, 0);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.footer>span:hover {
+  color: rgb(255, 0, 0);
+}
